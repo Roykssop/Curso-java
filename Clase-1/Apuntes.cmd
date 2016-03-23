@@ -39,5 +39,14 @@ Esta compuesto por:
       Herramienta de compilación.
     
     
+Main activity
+  
+  Método onCreate (Se ejecuta al iniciar la app)
+    setContentVIew carga el layout que recibe como parámetro
+    Todo lo que esta en res se accede desde la clase R
+
+Cargar emulador
+  Tools -> Android -> Avd Manager
+    
     
       
