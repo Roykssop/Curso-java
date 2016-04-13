@@ -16,3 +16,11 @@ Crear layout
   
   
   build.grade version 23.1
+  
+
+Listas
+
+  List <String> listaStrings = new ArrayList <String>
+  <String> es generic, indica de que tipo es la lista.
+  
+  ArrayAdapter<string> Adapter = new ArrayAdapter(this)
