@@ -1,0 +1,24 @@
+Lista scrolleable
+
+  Vamos a tener 2 xml, 
+    * El layout activity que contiene el RecyclerView
+    * El layout que contiene el xml item
+  Clase definida de las instancias que va a recibir la lista
+  
+  
+  
+  Desarrollo
+  
+  1) Cambiar version a 23.1 en build.gradle -> luego sync Now
+  2) Creamos la clase Persona
+  3) Generamos los Getters & Setters ( R click, refactor - encapsulate fields )
+  4) Crear lista en activity
+  5) Agregamos el elemento reciclerview al xml de la vista
+  
+      <android.support.v7.widget.RecyclerView
+      android:id="@+id/list"
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      android:scrollbars="vertical" />
+  6) Agregamos dependencia al build.gradle compile 'com.android.support:recyclerview-v7:+' y sync Now
+  
