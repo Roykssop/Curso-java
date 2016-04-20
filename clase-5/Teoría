@@ -5,6 +5,14 @@ Lista scrolleable
     * El layout que contiene el xml item
   Clase definida de las instancias que va a recibir la lista
   
+  RecyclerView
+  
+  El adapter tiene 3 métodos, tenemos que escribirlos porque el Recyclerview los utiliza
+  Métodos
+    *getItemCount
+    *onCreateViewHolder -> Dame una view de un item ( Le pide al adapter que le de ese objeto y se lo de)
+    *onBindViewHolder -> Pasa como argumento esa view anterior y la pos.
+  
   
   
   Desarrollo
@@ -21,4 +29,11 @@ Lista scrolleable
       android:layout_height="match_parent"
       android:scrollbars="vertical" />
   6) Agregamos dependencia al build.gradle compile 'com.android.support:recyclerview-v7:+' y sync Now
-  
+  7) Creamos clase para el adapter, extiende de Recyclerview Adapter
+  8) Implementamos los métodos abstractos
+  9) Creamos constructor pasamos como parámetros la lista
+  10) Implementamos OncreateViewHolder
+        View v = LayoutInflater
+          .from(parent.getContext())
+          .inflate(R.layout.item_layout, parent, false);
+      Retornamos un viewHolder.
