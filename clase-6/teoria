@@ -1,0 +1,21 @@
+Intents
+
+  Explicitos: Sirve para lanzar un activity en particular
+  Implicitos: Se solicita algo mas simple,Quiero ver un link, quiero sacar una foto.
+  
+
+Ejer
+
+1) Creamos un nuevo activity
+2) Creamos un objeto intent y le pasamos un objeto class.
+3) Para poder acceder a un objeto de la activity anterior, podemos hacerla estática
+4)        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_pantalla2);
+        
+        // Recibir los datos del intent
+        
+        Intent objIntent = getIntent();
+        Bundle objBundle = objIntent.getExtras();
+        
+        int position =  objBundle.getInt("position");   
+        Persona p = MainActivity.lista.get(position);
