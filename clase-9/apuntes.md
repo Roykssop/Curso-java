@@ -14,3 +14,19 @@ En el Activity_main.xml se puede usar <include layout="@layout/content_main" /> 
   setSupportActionBar(toolbar);
   
   Hace que funcione como un action bar ( los 3 puntos )
+  
+  
+  
+// Alert dialog
+Creamos alertdialog builder
+  AlertDialog.Builder builder = new AlertDialog.Builder(this); // Se le pasa this como contexto
+  
+Creamos alertdialog
+  
+  
+Implementar la interfaz dialoginterface para poder capturar el click de los botones del dialog
+  this (hace que la clase implemente el método) o podemos crear una clase que la implemente y pasar la instancia d ela clase
+  
+  
+
+En vez de usar dialog.show, usamos un fragment
