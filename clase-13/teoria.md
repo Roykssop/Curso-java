@@ -32,3 +32,6 @@ BroadCast receiver, recibe eventos de sistema
   Podemos levantar un intent , debe ser un intent, 
   un pending intent se ejecuta con el usuario
   Permite ejecutar un intent con los permisos y usuario que genero ese intent y no la aplicacion que lo esta ejecutando
+  
+  Start activity for result => un intent que espera resultado
+  
