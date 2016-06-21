@@ -1,0 +1,15 @@
+Gps
+
+Mapas
+2 partes, 
+  Poner el mapa en la pantalla.
+  Interactuar con el mapa.
+  
+  Api Key - Gmail
+          - Package name de la app
+          - Fingerprint -> Hash ( Certificado (Es un archivo quie nos va permitir firmar la app -> Propio
+                                                                                                -> Debug  (Vamos a usar este) )
+                                                                                                
+  Como hacemos para obtener ese fingerprint
+  Es hacerle el hash a ese keystore
+  Vamos usar el keytool
